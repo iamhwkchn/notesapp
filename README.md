@@ -19,7 +19,7 @@ The app integrates the JSON Server package to simulate an API server, enabling s
 3. Install dependencies: `npm install`
 
 ## Usage
-1. Start the JSON Server: `npm run script`
+1. Start the JSON Server: `npm run server`
 2. In a separate terminal, start the React app: `npm start`
 3. Open your web browser and visit: `http://localhost:3000`
 
