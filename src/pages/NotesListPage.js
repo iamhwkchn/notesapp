@@ -1,6 +1,8 @@
 import React ,{useState, useEffect} from 'react'
 //import notes from '../assets/data'
+//import AddButton from '/Users/sriramsivaraman/Desktop/react_project/notesapp/src/components/AddButton.js'
 import ListItem from '../components/ListItem'
+
 
 const NotesListPage = () => {
 
@@ -32,6 +34,8 @@ const NotesListPage = () => {
             <ListItem key = {index} note = {note} />
         ))}
       </div>
+      
+    
     </div>
   )
 }
