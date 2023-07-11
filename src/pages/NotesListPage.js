@@ -1,6 +1,9 @@
 import React ,{useState, useEffect} from 'react'
 //import notes from '../assets/data'
-//import AddButton from '/Users/sriramsivaraman/Desktop/react_project/notesapp/src/components/AddButton.js'
+//import AddButton from '../components/AddButton'
+import {ReactComponent as AddIcon} from '../assets/add.svg'
+import {Link} from 'react-router-dom'
+
 import ListItem from '../components/ListItem'
 
 
@@ -33,6 +36,12 @@ const NotesListPage = () => {
         {notes.map((note, index) => (
             <ListItem key = {index} note = {note} />
         ))}
+      </div>
+
+      <div>
+      <Link to='/note/new' className='floating-button'>
+            <AddIcon />
+        </Link>
       </div>
       
     
