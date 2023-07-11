@@ -52,6 +52,8 @@ const NotePage = () => {
       })
     }
     let navigate = useNavigate()
+
+    //###### delete note ##########
     let deleteNode = ()=>{
         fetch(`http://localhost:8000/notes/${noteid_num}` , {
         method:'DELETE',
@@ -62,7 +64,7 @@ const NotePage = () => {
       })
       navigate('/')
     }
-    
+  // ####### handle submit ###########
     let handleSubmit = () =>{
       if(noteid_num !== 'new' && !note.body){
         deleteNode()

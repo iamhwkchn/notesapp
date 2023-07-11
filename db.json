@@ -1,14 +1,9 @@
 {
   "notes": [
     {
-      "id": 1,
-      "body": "Todays Agenda\n\n- Walk Dog\n- Feed fish\n- Play basketball\n- Eat a salad\n- drink water",
-      "updated": "2023-07-10T23:50:53.440Z"
-    },
-    {
       "id": 2,
       "body": "Bob from bar down the \n\n- Take out trash\n- Eat food\n- drink beer ",
-      "updated": "2023-07-10T23:51:02.614Z"
+      "updated": "2023-07-11T01:09:18.086Z"
     },
     {
       "body": "cool",
@@ -16,8 +11,8 @@
       "id": 3
     },
     {
-      "body": "this is a new note",
-      "updated": "2023-07-11T00:59:56.511Z",
+      "body": "this is a new note\n\nI am a very postitive person. I will win this world",
+      "updated": "2023-07-11T01:16:22.440Z",
       "id": 4
     }
   ]
