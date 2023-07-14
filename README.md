@@ -1,4 +1,4 @@
-# NotesApp
+# React - NotesApp
 
 Seamless Note-Taking: Capture, Organize, and Inspire
 
